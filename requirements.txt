@@ -1,8 +1,8 @@
 # requirements.txt
 fastapi
 uvicorn[standard]
-opencv-python
-pyzbar
+opencv-python-headless   # <‑‑ use the head‑less build
+pyzbarpyzbar
 tldextract
 streamlit
 pandas
